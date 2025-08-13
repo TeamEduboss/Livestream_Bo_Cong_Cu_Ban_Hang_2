@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tài liệu Livestream 2: Bộ công cụ bán hàng thành công</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Be Vietnam Pro', sans-serif;
+            background-color: #212121; /* Main Black */
+            color: #E0E0E0;
+            scroll-behavior: smooth;
+        }
+        .main-heading {
+            color: #FFC71D;
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #FFC71D, #FFB300);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .cta-button {
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(255, 199, 29, 0.2);
+        }
+        .card {
+            background-color: #2a2a2a; /* Dark Grey */
+            border: 1px solid #424242;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card-alt {
+             background-color: #313131; /* Lighter Dark Grey */
+             border: 1px solid #4f4f4f;
+        }
+        .card:hover, .card-alt:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+        }
+        .accordion-header {
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .accordion-header:hover {
+            background-color: #383838;
+        }
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease-in-out;
+        }
+        .icon-rotate {
+            transition: transform 0.3s ease;
+        }
+        .accordion-header.active .icon-rotate {
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+<body class="bg-[#212121]">
+
+    <div class="container mx-auto max-w-5xl p-4 sm:p-6 lg:p-8">
+
+        <!-- Header -->
+        <header class="text-center mb-16">
+            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold gradient-text">Tài liệu Livestream 2</h1>
+            <p class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white mt-2">Bộ công cụ bán hàng thành công</p>
+            <p class="mt-4 text-gray-300 max-w-3xl mx-auto">
+                Trong hành trình xây dựng năng lực bán hàng xuất sắc, việc hiểu rõ các yếu tố cốt lõi và áp dụng đúng phương pháp là vô cùng quan trọng. Tài liệu này sẽ giúp bạn nâng cao kỹ năng và đạt được những kết quả đột phá.
+            </p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="space-y-16">
+
+            <!-- 1. Hứng thú và Cam kết -->
+            <section id="commitment">
+                <h2 class="text-2xl sm:text-3xl font-bold main-heading mb-6 text-center">1. Động lực vs. Cam kết trong bán hàng</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="card p-6 rounded-2xl">
+                        <h3 class="text-xl font-semibold text-white mb-3">Động lực: Tia lửa ban đầu</h3>
+                        <p class="text-gray-300">Là khi cảm xúc đang lên, giúp chúng ta khởi động. Tuy nhiên, người chỉ dựa vào động lực sẽ làm việc khi tiện lợi và dễ bỏ cuộc khi gặp khó khăn.</p>
+                        <blockquote class="border-l-4 border-[#FFC71D] pl-4 mt-4 italic text-gray-400">Động lực có nghĩa là bạn chỉ làm khi thấy tiện, còn khi gặp khó khăn là bỏ cuộc.</blockquote>
+                    </div>
+                    <div class="card p-6 rounded-2xl">
+                        <h3 class="text-xl font-semibold text-white mb-3">Cam kết: Động cơ bền bỉ</h3>
+                        <p class="text-gray-300">Là bất kể có động lực hay không, dễ hay khó, miễn là để đạt mục tiêu thì vẫn làm. Người bán hàng cam kết sẽ làm đủ, làm đúng, làm đều.</p>
+                        <blockquote class="border-l-4 border-[#FFC71D] pl-4 mt-4 italic text-gray-400">Khi đã cam kết, dù mệt vẫn làm, chán vẫn làm, bị từ chối vẫn hoàn thành công việc.</blockquote>
+                    </div>
+                </div>
+                <div class="mt-8 bg-gradient-to-r from-[#FFC71D] to-[#FFB300] text-[#212121] p-4 rounded-lg text-center font-bold text-lg">
+                    Động lực giúp bạn KHỞI ĐỘNG, nhưng CAM KẾT mới đưa bạn VỀ ĐÍCH.
+                </div>
+            </section>
+
+            <!-- 2. Sức mạnh của Niềm tin -->
+            <section id="belief">
+                <h2 class="text-2xl sm:text-3xl font-bold main-heading mb-6 text-center">2. Sức mạnh của Niềm tin</h2>
+                <p class="text-center text-gray-300 max-w-2xl mx-auto mb-8">Niềm tin là điểm khởi đầu, quyết định hành động và tạo ra kết quả. Hãy cùng xem niềm tin dẫn dắt bạn đi theo hai con đường hoàn toàn khác nhau như thế nào.</p>
+
+                <div class="card card-alt p-6 sm:p-8 rounded-2xl">
+                    <h3 class="text-xl font-semibold text-white mb-6 text-center">Lộ trình của Niềm tin</h3>
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <!-- Positive Path -->
+                        <div class="space-y-4">
+                            <h4 class="text-lg font-bold text-green-400 text-center">Con đường Tích cực (Hữu ích)</h4>
+                            <div class="bg-[#3a3a3a] p-4 rounded-lg text-center">
+                                <p class="font-semibold">Bước 1: Niềm tin</p>
+                                <p class="text-sm text-gray-300">"Sản phẩm này dễ bán!"</p>
+                            </div>
+                            <div class="text-center text-2xl text-green-400">↓</div>
+                            <div class="bg-[#3a3a3a] p-4 rounded-lg text-center">
+                                <p class="font-semibold">Bước 2: Hành động</p>
+                                <p class="text-sm text-gray-300">Gọi nhiều, gặp nhiều, năng nổ</p>
+                            </div>
+                            <div class="text-center text-2xl text-green-400">↓</div>
+                            <div class="bg-[#3a3a3a] p-4 rounded-lg text-center">
+                                <p class="font-semibold">Bước 3: Kết quả</p>
+                                <p class="text-sm text-gray-300">Bán được hàng, có kinh nghiệm</p>
+                            </div>
+                             <div class="text-center text-2xl text-green-400">↻</div>
+                             <p class="text-xs text-center text-gray-400">Kết quả tốt củng cố niềm tin ban đầu</p>
+                        </div>
+                        <!-- Negative Path -->
+                        <div class="space-y-4">
+                            <h4 class="text-lg font-bold text-red-400 text-center">Con đường Tiêu cực (Giới hạn)</h4>
+                            <div class="bg-[#3a3a3a] p-4 rounded-lg text-center">
+                                <p class="font-semibold">Bước 1: Niềm tin</p>
+                                <p class="text-sm text-gray-300">"Sản phẩm này khó bán."</p>
+                            </div>
+                            <div class="text-center text-2xl text-red-400">↓</div>
+                            <div class="bg-[#3a3a3a] p-4 rounded-lg text-center">
+                                <p class="font-semibold">Bước 2: Hành động</p>
+                                <p class="text-sm text-gray-300">Ngại gọi, ít gặp, hời hợt</p>
+                            </div>
+                            <div class="text-center text-2xl text-red-400">↓</div>
+                            <div class="bg-[#3a3a3a] p-4 rounded-lg text-center">
+                                <p class="font-semibold">Bước 3: Kết quả</p>
+                                <p class="text-sm text-gray-300">Không bán được, nản chí</p>
+                            </div>
+                             <div class="text-center text-2xl text-red-400">↻</div>
+                             <p class="text-xs text-center text-gray-400">Kết quả tệ chứng minh niềm tin là đúng</p>
+                        </div>
+                    </div>
+                    <hr class="border-gray-500 my-8">
+                    <div class="text-center">
+                        <h4 class="font-bold text-white text-lg mb-3">Nền tảng Vững chắc: 3 Niềm tin Cốt lõi</h4>
+                        <p class="text-gray-300 text-sm mb-4 max-w-lg mx-auto">Để luôn đi trên con đường tích cực, hãy xây dựng sự nghiệp của bạn trên 3 nền tảng không thể thay thế này:</p>
+                        <div class="grid sm:grid-cols-3 gap-4">
+                            <div class="bg-[#212121] p-3 rounded-lg">Tin vào <strong class="text-[#FFC71D]">Bản thân</strong></div>
+                            <div class="bg-[#212121] p-3 rounded-lg">Tin vào <strong class="text-[#FFC71D]">Sản phẩm</strong></div>
+                            <div class="bg-[#212121] p-3 rounded-lg">Tin vào <strong class="text-[#FFC71D]">Thị trường</strong></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 3. Hiểu khách hàng -->
+            <section id="customer">
+                <h2 class="text-2xl sm:text-3xl font-bold main-heading mb-6 text-center">3. Hiểu khách hàng để bán hàng hiệu quả</h2>
+                <p class="text-center text-gray-300 max-w-2xl mx-auto mb-8">Bán hàng thành công không phải là nói về sản phẩm, mà là nói về khách hàng. Hiểu họ là ai, họ suy nghĩ gì và điều gì quan trọng với họ chính là chìa khóa.</p>
+                
+                <div class="space-y-8">
+                    <!-- Ba nhóm khách hàng -->
+                    <div class="card p-6 rounded-2xl">
+                        <h3 class="text-xl font-semibold text-white mb-4 text-center">Phân loại và chiến lược cho 3 nhóm khách hàng</h3>
+                        <p class="text-center text-gray-400 mb-6">Mỗi nhóm khách hàng cần một chiến lược tiếp cận khác nhau. Sai chiến lược cũng giống như mang sai vũ khí ra trận.</p>
+                        <div class="space-y-6">
+                            <!-- Nhóm 1 -->
+                            <div class="flex flex-col sm:flex-row items-start gap-4 bg-[#3a3a3a] p-4 rounded-lg">
+                                <div class="flex-shrink-0 w-16 h-16 rounded-full bg-green-500 text-white flex items-center justify-center font-bold text-2xl">1</div>
+                                <div>
+                                    <h4 class="font-bold text-white text-lg">Khách hàng tiềm năng (Người mới)</h4>
+                                    <p class="text-gray-300 mt-1">Là người mới mua lần đầu, chưa có kinh nghiệm (VD: mua ô tô, nhà lần đầu). Họ cần được "giáo dục" về giá trị.</p>
+                                    <p class="text-sm mt-2"><strong class="text-amber-300">Chiến lược:</strong> Cung cấp thông tin đầy đủ, rõ ràng. Giúp họ hiểu sản phẩm và công ty của bạn.</p>
+                                </div>
+                            </div>
+                            <!-- Nhóm 2 -->
+                            <div class="flex flex-col sm:flex-row items-start gap-4 bg-[#3a3a3a] p-4 rounded-lg">
+                                <div class="flex-shrink-0 w-16 h-16 rounded-full bg-blue-500 text-white flex items-center justify-center font-bold text-2xl">2</div>
+                                <div>
+                                    <h4 class="font-bold text-white text-lg">Người trong thị trường (Có kinh nghiệm)</h4>
+                                    <p class="text-gray-300 mt-1">Là người đã từng mua sản phẩm tương tự, có hiểu biết cơ bản (VD: muốn nâng cấp máy tính, điện thoại).</p>
+                                    <p class="text-sm mt-2"><strong class="text-amber-300">Chiến lược:</strong> Tập trung vào điểm cải thiện. Cho họ thấy sản phẩm của bạn tốt hơn, rẻ hơn, hoặc tiện lợi hơn như thế nào.</p>
+                                </div>
+                            </div>
+                            <!-- Nhóm 3 -->
+                            <div class="flex flex-col sm:flex-row items-start gap-4 bg-[#3a3a3a] p-4 rounded-lg">
+                                 <div class="flex-shrink-0 w-16 h-16 rounded-full bg-yellow-500 text-white flex items-center justify-center font-bold text-2xl">3</div>
+                                <div>
+                                    <h4 class="font-bold text-white text-lg">Nhóm chuyên gia (Dân trong ngành)</h4>
+                                    <p class="text-gray-300 mt-1">Là người hiểu sản phẩm từ trong ra ngoài (VD: nhà đầu tư BĐS chuyên nghiệp, người làm đẹp lâu năm).</p>
+                                    <p class="text-sm mt-2"><strong class="text-amber-300">Chiến lược:</strong> Đừng giới thiệu những gì họ đã biết. Đi thẳng vào vấn đề họ quan tâm: giá, điều khoản, lợi thế cạnh tranh đặc biệt.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Arrow Separator -->
+                    <div class="text-center text-4xl text-[#FFC71D] animate-bounce">↓</div>
+
+                    <!-- Sáu bộ lọc -->
+                    <div class="card p-6 rounded-2xl">
+                        <h3 class="text-xl font-semibold text-white mb-4 text-center">Sáu bộ lọc thông tin của khách hàng</h3>
+                        <p class="text-center text-gray-400 mb-6">Bộ não con người luôn lọc thông tin để tránh quá tải. Mọi điều bạn nói sẽ đi qua 6 bộ lọc này trước khi được khách hàng thực sự "nghe".</p>
+                        <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+                            <div class="bg-[#3a3a3a] p-4 rounded-lg flex items-center justify-center">
+                                <h4 class="font-bold text-white text-center">1. Thời gian</h4>
+                            </div>
+                            <div class="bg-[#3a3a3a] p-4 rounded-lg flex items-center justify-center">
+                                <h4 class="font-bold text-white text-center">2. Ngôn ngữ</h4>
+                            </div>
+                            <div class="bg-[#3a3a3a] p-4 rounded-lg flex items-center justify-center">
+                                <h4 class="font-bold text-white text-center">3. Ký ức/Trải nghiệm cũ</h4>
+                            </div>
+                            <div class="bg-[#3a3a3a] p-4 rounded-lg flex items-center justify-center">
+                                <h4 class="font-bold text-white text-center">4. Thứ tự ưu tiên</h4>
+                            </div>
+                            <div class="bg-[#3a3a3a] p-4 rounded-lg flex items-center justify-center">
+                                <h4 class="font-bold text-white text-center">5. Giá trị và Niềm tin</h4>
+                            </div>
+                            <div class="bg-[#3a3a3a] p-4 rounded-lg flex items-center justify-center">
+                                <h4 class="font-bold text-white text-center">6. Thái độ</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 4. Kỹ thuật 4 câu hỏi & 1 câu tuyên bố -->
+            <section id="questions">
+                <h2 class="text-2xl sm:text-3xl font-bold main-heading mb-2 text-center">4. Kỹ thuật 4 Câu hỏi & 1 Tuyên bố</h2>
+                <p class="text-gray-300 mb-8 text-center max-w-2xl mx-auto">Đây là một quy trình 5 bước để khai thác thông tin, thấu hiểu khách hàng và trình bày giải pháp một cách thuyết phục nhất.</p>
+
+                <div class="card card-alt p-6 sm:p-8 rounded-2xl">
+                    <h3 class="text-xl font-semibold text-white mb-6 text-center">Quy trình 5 bước Thấu hiểu & Dẫn dắt</h3>
+                    <div class="space-y-6">
+                        <!-- Step 1 -->
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-12 h-12 rounded-full bg-[#FFC71D] text-[#212121] flex items-center justify-center font-bold text-2xl">1</div>
+                            <div>
+                                <h4 class="font-bold text-white text-lg">Xác định: "Anh/chị đã từng... chưa ạ?"</h4>
+                            </div>
+                        </div>
+                        <!-- Step 2 -->
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-12 h-12 rounded-full bg-[#FFC71D] text-[#212121] flex items-center justify-center font-bold text-2xl">2</div>
+                            <div>
+                                <h4 class="font-bold text-white text-lg">Khám phá: "Trải nghiệm của anh/chị thế nào?"</h4>
+                            </div>
+                        </div>
+                        <!-- Step 3 -->
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-12 h-12 rounded-full bg-[#FFC71D] text-[#212121] flex items-center justify-center font-bold text-2xl">3</div>
+                            <div>
+                                <h4 class="font-bold text-white text-lg">Tìm "Mỏ vàng": "Điều gì sẽ làm cho nó tốt hơn?"</h4>
+                            </div>
+                        </div>
+                        <!-- Step 4 -->
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-12 h-12 rounded-full bg-[#FFC71D] text-[#212121] flex items-center justify-center font-bold text-2xl">4</div>
+                            <div>
+                                <h4 class="font-bold text-white text-lg">Mở rộng: "Anh/chị nghĩ sản phẩm này có thể giúp gì?"</h4>
+                            </div>
+                        </div>
+                        <!-- Step 5 -->
+                         <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-12 h-12 rounded-full bg-gradient-to-br from-amber-500 to-yellow-400 text-[#212121] flex items-center justify-center font-bold text-2xl">5</div>
+                            <div>
+                                <h4 class="font-bold text-white text-lg">Tuyên bố: Dẫn nhập vào bán hàng</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-alt p-6 rounded-2xl mt-8">
+                    <h3 class="text-xl font-semibold text-white mb-4 text-center">Ví dụ thực chiến</h3>
+                    <p class="text-center text-gray-400 mb-4">Xem cách áp dụng quy trình này vào các tình huống thực tế.</p>
+                    <div class="space-y-2">
+                        <!-- Example 1 -->
+                        <div class="accordion-item bg-[#3a3a3a] rounded-lg">
+                            <div class="accordion-header flex justify-between items-center p-4">
+                                <h4 class="font-semibold text-white">Sản phẩm trị nám</h4>
+                                <div class="icon-rotate text-[#FFC71D] text-2xl">▼</div>
+                            </div>
+                            <div class="accordion-content">
+                                <div class="p-4 pt-2 border-t border-gray-500">
+                                    <ul class="space-y-2 text-sm text-gray-300">
+                                        <li><strong>Câu hỏi 1:</strong> "Chị đã từng trị nám bao giờ chưa?" - <strong>Khách hàng:</strong> "Rồi."</li>
+                                        <li><strong>Câu hỏi 2:</strong> "Trải nghiệm của chị thế nào?" - <strong>Khách hàng:</strong> "Lúc đầu mờ nhưng sau lại tái lại."</li>
+                                        <li><strong>Câu hỏi 3:</strong> "Vậy điều gì sẽ làm nó tốt hơn?" - <strong>Khách hàng:</strong> "Chị muốn nó <strong>dứt điểm không tái lại</strong>, càng <strong>nhanh càng tốt</strong>."</li>
+                                        <li><strong>Câu hỏi 4:</strong> "Chị nghĩ trị nám giúp gì cho mình?" - <strong>Khách hàng:</strong> "Đẹp hơn, tự tin hơn."</li>
+                                        <li class="pt-2 border-t border-gray-500"><strong>Tuyên bố:</strong> "Thưa chị, trong 10 phút tới, chị sẽ thấy một công nghệ điều trị nám <strong>dứt điểm, không tái lại</strong> chỉ trong 15 ngày. Hơn thế nữa, nó còn giúp chị <strong>tự tin mặt mộc ra đường</strong>."</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Example 2 -->
+                         <div class="accordion-item bg-[#3a3a3a] rounded-lg">
+                            <div class="accordion-header flex justify-between items-center p-4">
+                                <h4 class="font-semibold text-white">Sản phẩm giảm cân</h4>
+                                <div class="icon-rotate text-[#FFC71D] text-2xl">▼</div>
+                            </div>
+                            <div class="accordion-content">
+                                <div class="p-4 pt-2 border-t border-gray-500">
+                                    <ul class="space-y-2 text-sm text-gray-300">
+                                        <li><strong>Câu hỏi 1:</strong> "Anh/chị đã từng sử dụng sản phẩm giảm cân bao giờ chưa?" - <strong>Khách hàng:</strong> "Có vài lần rồi."</li>
+                                        <li><strong>Câu hỏi 2:</strong> "Trải nghiệm của anh/chị như thế nào?" - <strong>Khách hàng:</strong> "Giảm được nhưng sau đó lại tăng lại."</li>
+                                        <li><strong>Câu hỏi 3:</strong> "Vậy thì điều gì sẽ làm cho nó tốt hơn?" - <strong>Khách hàng:</strong> "Tôi muốn là giảm cân nhưng <strong>không phải nhịn ăn khổ sở</strong>, vẫn <strong>duy trì được lâu dài</strong>."</li>
+                                        <li><strong>Câu hỏi 4:</strong> "Anh/chị nghĩ là giảm cân giúp gì cho mình?" - <strong>Khách hàng:</strong> "Đẹp hơn, mặc vừa size S/M."</li>
+                                        <li class="pt-2 border-t border-gray-500"><strong>Tuyên bố:</strong> "Thưa chị, trong 15 phút tới, chị sẽ được thấy một phương pháp giảm cân <strong>không cần phải nhịn ăn</strong> mà <strong>duy trì được dáng vóc lâu dài</strong>. Hơn thế nữa, nó còn giúp chị khỏe hơn và tự tin hơn khi giao tiếp."</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Example 3 -->
+                        <div class="accordion-item bg-[#3a3a3a] rounded-lg">
+                            <div class="accordion-header flex justify-between items-center p-4">
+                                <h4 class="font-semibold text-white">Dầu gội trị rụng tóc</h4>
+                                <div class="icon-rotate text-[#FFC71D] text-2xl">▼</div>
+                            </div>
+                            <div class="accordion-content">
+                                <div class="p-4 pt-2 border-t border-gray-500">
+                                    <ul class="space-y-2 text-sm text-gray-300">
+                                        <li><strong>Câu hỏi 1:</strong> "Anh/chị đã từng sử dụng dầu gội rụng tóc chưa?" - <strong>Khách hàng:</strong> "Rồi."</li>
+                                        <li><strong>Câu hỏi 2:</strong> "Trải nghiệm của anh/chị như thế nào?" - <strong>Khách hàng:</strong> "Mùi thì thơm nhưng mà tóc thì vẫn rụng."</li>
+                                        <li><strong>Câu hỏi 3:</strong> "Vậy thì điều gì sẽ làm cho nó tốt hơn?" - <strong>Khách hàng:</strong> "<strong>Giảm rụng tóc rõ rệt</strong> sau 2 tuần và <strong>tóc mọc lại</strong>."</li>
+                                        <li><strong>Câu hỏi 4:</strong> "Anh/chị nghĩ rằng dầu gội này có thể giúp gì cho mình?" - <strong>Khách hàng:</strong> "Chỉ cần rụng ít thôi."</li>
+                                        <li class="pt-2 border-t border-gray-500"><strong>Tuyên bố:</strong> "Thưa chị, trong 10 phút tới, tôi sẽ cho chị thấy một giải pháp giúp chị <strong>giảm rụng tóc rõ rệt trong 2 tuần</strong> và <strong>tóc sẽ mọc lại</strong>. Ngoài ra, còn giúp cho tóc chị khỏe hơn và da đầu sạch."</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Example 4 -->
+                        <div class="accordion-item bg-[#3a3a3a] rounded-lg">
+                            <div class="accordion-header flex justify-between items-center p-4">
+                                <h4 class="font-semibold text-white">Bất động sản</h4>
+                                <div class="icon-rotate text-[#FFC71D] text-2xl">▼</div>
+                            </div>
+                            <div class="accordion-content">
+                                <div class="p-4 pt-2 border-t border-gray-500">
+                                    <ul class="space-y-2 text-sm text-gray-300">
+                                        <li><strong>Câu hỏi 1:</strong> "Anh đã từng mua bất động sản chưa?" - <strong>Khách hàng:</strong> "Rồi, cách đây 5 năm."</li>
+                                        <li><strong>Câu hỏi 2:</strong> "Trải nghiệm của anh thế nào?" - <strong>Khách hàng:</strong> "Ổn nhưng vị trí hơi xa."</li>
+                                        <li><strong>Câu hỏi 3:</strong> "Vậy điều gì sẽ làm nó tốt hơn?" - <strong>Khách hàng:</strong> "Tôi muốn nó <strong>gần trung tâm hơn</strong>, <strong>tiện ích đầy đủ</strong> và <strong>giá hợp lý</strong>."</li>
+                                        <li><strong>Câu hỏi 4:</strong> "Anh nghĩ mua nhà mang lại điều gì?" - <strong>Khách hàng:</strong> "An cư, có tài sản tích trữ."</li>
+                                        <li class="pt-2 border-t border-gray-500"><strong>Tuyên bố:</strong> "Thưa anh, trong 15 phút tới, anh sẽ thấy một dự án <strong>gần trung tâm, tiện ích đầy đủ, giá hợp lý</strong>. Hơn thế nữa, nó còn là một khoản đầu tư <strong>tăng giá theo thời gian và tạo dòng tiền hàng tháng</strong>."</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- 5. Chương trình huấn luyện (REVISED V3) -->
+            <section id="course" class="card card-alt p-6 sm:p-8 rounded-2xl shadow-lg">
+                <h2 class="text-3xl sm:text-4xl font-extrabold main-heading mb-4 text-center">Chương trình huấn luyện<br>"Chuyên Gia Bán Hàng Đột Phá"</h2>
+                <p class="mb-8 max-w-3xl mx-auto text-center text-gray-300">Đây là chương trình đặc biệt được thiết kế để biến bạn từ một người bán hàng bình thường trở thành một chuyên gia có uy tín cao, người mà khách hàng chủ động tìm đến thay vì phải đi tìm kiếm.</p>
+
+                <div class="grid lg:grid-cols-5 gap-8">
+                    <!-- Left Column: Course Content -->
+                    <div class="lg:col-span-3">
+                        <h3 class="font-bold text-xl mb-4 text-white">Bạn sẽ làm chủ toàn bộ quy trình bán hàng chuyên nghiệp:</h3>
+                        <p class="text-gray-300 mb-4">Chúng tôi sẽ đi sâu vào mô hình 5W's để bạn có thể trả lời mọi câu hỏi một cách thuyết phục:</p>
+                        <ul class="space-y-3 text-gray-300">
+                            <li class="flex items-start"><span class="mr-3 mt-1 text-green-400">✔</span> <div>Hiểu rõ chân dung khách hàng của bạn.</div></li>
+                            <li class="flex items-start"><span class="mr-3 mt-1 text-green-400">✔</span> <div>Nắm bắt lý do khách hàng từ chối và lý do họ phải lắng nghe bạn.</div></li>
+                            <li class="flex items-start"><span class="mr-3 mt-1 text-green-400">✔</span> <div>Thiết kế nội dung, biến sản phẩm thành giải pháp không thể chối từ.</div></li>
+                            <li class="flex items-start"><span class="mr-3 mt-1 text-green-400">✔</span> <div>Trình bày bài bán hàng một cách thu hút, lôi cuốn.</div></li>
+                            <li class="flex items-start"><span class="mr-3 mt-1 text-green-400">✔</span> <div>Xử lý từ chối và chốt sale hiệu quả.</div></li>
+                            <li class="flex items-start"><span class="mr-3 mt-1 text-green-400">✔</span> <div>Chăm sóc khách hàng để họ giới thiệu thêm khách hàng mới và tạo ra nguồn khách hàng vô tận.</div></li>
+                        </ul>
+                    </div>
+
+                    <!-- Right Column: Logistics & CTA -->
+                    <div class="lg:col-span-2 space-y-6">
+                        <div class="bg-[#3a3a3a] p-4 rounded-lg">
+                             <p class="font-semibold text-white">🗓️ Thời gian: 27 & 28 Tháng 8</p>
+                             <p class="font-semibold text-white mt-2">📍 Địa điểm: HÀ NỘI</p>
+                             <p class="text-xs text-gray-400 mt-1">(Chương trình hiếm hoi được tổ chức lại)</p>
+                        </div>
+                        <div class="bg-gradient-to-br from-amber-500 to-yellow-400 text-[#212121] p-6 rounded-lg text-center">
+                            <p class="text-lg font-semibold">Chi phí đầu tư</p>
+                            <p class="text-2xl line-through opacity-75">5.000.000 VNĐ</p>
+                            <p class="text-4xl font-bold my-1">3.000.000 VNĐ</p>
+                            <p class="font-semibold">Khi đăng ký ngay hôm nay!</p>
+                            <p class="mt-4 font-bold">+ Tặng kèm khóa học Online trị giá 1.500.000 VND</p>
+                        </div>
+                        <div>
+                            <a href="#" class="cta-button w-full inline-block bg-[#FFC71D] text-[#212121] font-bold text-xl py-4 px-10 rounded-full shadow-lg text-center">
+                                Đăng ký ngay!
+                            </a>
+                            <p class="mt-3 text-sm text-center text-gray-400">Đầu tư cho bản thân để tiết kiệm thời gian mò mẫm, thử và sai!</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const accordionItems = document.querySelectorAll('.accordion-item');
+
+            accordionItems.forEach(item => {
+                const header = item.querySelector('.accordion-header');
+                const content = item.querySelector('.accordion-content');
+
+                header.addEventListener('click', () => {
+                    const isOpen = content.style.maxHeight;
+                    
+                    if (isOpen && isOpen !== '0px') {
+                        content.style.maxHeight = '0px';
+                        header.classList.remove('active');
+                    } else {
+                        content.style.maxHeight = content.scrollHeight + "px";
+                        header.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
